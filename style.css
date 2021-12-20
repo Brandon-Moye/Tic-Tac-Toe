@@ -1,0 +1,42 @@
+/*need to start with the global reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*making the page scalable by setting font scales*/
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: black;
+  overflow-x: hidden;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: grey;
+  align-items: center;
+  justify-items: center;
+  row-gap: 4.8rem;
+  column-gap: 4.8rem;
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.box {
+  background-color: blue;
+  font-size: 4rem;
+}
+
+.box:hover {
+  cursor: pointer;
+}
