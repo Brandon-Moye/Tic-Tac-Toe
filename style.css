@@ -17,6 +17,7 @@ body {
   font-weight: 400;
   color: black;
   overflow-x: hidden;
+  position: relative;
 }
 
 .container {
@@ -25,18 +26,62 @@ body {
   background-color: grey;
   align-items: center;
   justify-items: center;
-  row-gap: 4.8rem;
-  column-gap: 4.8rem;
+  /* row-gap: 4.8rem;
+  column-gap: 4.8rem; */
   max-width: 120rem;
-  padding: 0 3.2rem;
+  /* padding: 0 3.2rem; */
   margin: 0 auto;
 }
 
 .box {
-  background-color: blue;
-  font-size: 4rem;
+  /* background-color: blue;
+  font-size: 4rem; */
+  background-color: grey;
+  border: 1px solid black;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  width: 100%;
 }
 
 .box:hover {
   cursor: pointer;
+}
+
+/* .reset {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+} */
+
+.addMessage {
+  display: flex;
+  background-color: green;
+  align-items: center;
+  justify-content: center;
+  max-width: 120rem;
+  padding: 10rem 10rem;
+  margin: 0 auto;
+  font-size: 3rem;
+}
+
+.reset {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 10rem;
+  margin: 0 auto;
+  background-color: blue;
+  color: white;
+  font-style: bold;
+  font-size: 40px;
+  border: none;
+}
+
+.reset:hover {
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
 }
