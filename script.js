@@ -1,6 +1,9 @@
 "use strict";
 
 let clickCount = 0;
+let gamePiece = "";
+let playerX = true;
+let piece = "";
 
 document.querySelector(".r1c1").addEventListener(
   "click",
