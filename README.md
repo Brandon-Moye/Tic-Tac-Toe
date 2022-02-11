@@ -1,6 +1,6 @@
 # Tic-Tac-Toe
 
-This is my first project from scratch.
+This is my first project from scratch. You can play it here: https://brandon-moye.github.io/
 
 The project is to simulate a game of tic-tac-toe where the players switch from X and O via clicking, and the game ends once a player wins or there is a tie.
 
